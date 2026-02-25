@@ -34,6 +34,6 @@ echo "Output: $RESULTS_DIR/$OUTPUT_NAME.out"
 echo "Fast Fwd: $FF_BILLIONS Billion Instructions"
 echo "------------------------------------------------------------------"
 
-$PIN_EXE -t $TOOL_SO -o "$RESULTS_DIR/$OUTPUT_NAME.out" -f $FF_BILLIONS -- $BINARY_PATH "$@"
+$PIN_EXE -t $TOOL_SO -o "$RESULTS_DIR/$OUTPUT_NAME-$(date +%H%M).out" -f $FF_BILLIONS -- $BINARY_PATH "$@"
 
-echo "Done! Results saved to $RESULTS_DIR/$OUTPUT_NAME.out"
+echo "Done! Results saved to $RESULTS_DIR/$OUTPUT_NAME-$(date +%H%M).out"
