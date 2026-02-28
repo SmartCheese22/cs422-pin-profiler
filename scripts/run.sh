@@ -7,7 +7,7 @@
 # ==============================================================================
 
 # 1. Project Paths (Edit these if you move folders)
-PROJECT_ROOT=$(pwd)
+PROJECT_ROOT=/home/prathamesh/CS422/pin-profiler-hw1
 PIN_EXE="$PROJECT_ROOT/pin/pin"
 TOOL_SO="$PROJECT_ROOT/tool/HW1/obj-ia32/HW1.so"
 RESULTS_DIR="$PROJECT_ROOT/results"
