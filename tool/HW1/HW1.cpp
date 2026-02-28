@@ -103,9 +103,9 @@ VOID RecordDisplacement(ADDRINT disp_val) {
     }
 }
 
-// ==============================================================================
-// 5. OUTPUT FORMATTING & EXIT
-// ==============================================================================
+/**
+ * Print the output before exiting
+ */
 VOID PrintStatsAndExit() {
     UINT64 total_type_A = count_nops + count_direct_calls + count_indirect_calls + count_returns +
                           count_uncond_br + count_cond_br + count_logical + count_rotate_shift +
@@ -193,9 +193,9 @@ VOID PrintStatsAndExit() {
     exit(0);
 }
 
-// ==============================================================================
-// 6. INSTRUMENTATION PIPELINE (JIT Compilation Time)
-// ==============================================================================
+/*
+ * Instrumentation Function
+ * /
 VOID Instruction(INS ins, VOID *v) {
 
     /**
