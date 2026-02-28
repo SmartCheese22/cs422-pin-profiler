@@ -195,7 +195,7 @@ VOID PrintStatsAndExit() {
 
 /*
  * Instrumentation Function
- * /
+ */
 VOID Instruction(INS ins, VOID *v) {
 
     /**
