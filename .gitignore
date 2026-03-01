@@ -3,7 +3,6 @@ obj-ia32/
 obj-intel64/
 *.so
 *.o
-*.out
 *.err
 
 # SPEC benchmarks and archives
