@@ -1,0 +1,70 @@
+===============================================
+PART A & B: INSTRUCTION PROFILE & CPI
+===============================================
+Total Profiled (Denominator): 1510407900
+Calculated CPI: 24.3170
+-----------------------------------------------
+1. Loads                 : 441138455    (29.21%)
+2. Stores                : 69269595     (4.59%)
+3. NOPs                  : 179984       (0.01%)
+4. Direct calls          : 3278383      (0.22%)
+5. Indirect calls        : 511          (0.00%)
+6. Returns               : 3278894      (0.22%)
+7. Uncond branches       : 5484261      (0.36%)
+8. Cond branches         : 112801513    (7.47%)
+9. Logical ops           : 35297560     (2.34%)
+10. Rotate/Shift         : 265255       (0.02%)
+11. Flag ops             : 4316696      (0.29%)
+12. Vector (AVX)         : 0            (0.00%)
+13. Cond moves           : 0            (0.00%)
+14. MMX/SSE              : 0            (0.00%)
+15. System calls         : 0            (0.00%)
+16. Floating-point       : 412377947    (27.30%)
+17. The rest             : 422718846    (27.99%)
+
+===============================================
+PART C: MEMORY FOOTPRINT (32-BYTE CHUNKS)
+===============================================
+Instruction Footprint (Bytes) : 37504
+Instr Accesses (Single Chunk) : 981087942
+Instr Accesses (Multi Chunk)  : 18912058
+-----------------------------------------------
+Data Footprint (Bytes)        : 4928224
+Data Accesses (Single Chunk)  : 502223800
+Data Accesses (Multi Chunk)   : 12
+
+===============================================
+PART D: ia32 ISA PROPERTIES
+===============================================
+[D.1] Instruction Length Distribution:
+  1 bytes: 81225018
+  2 bytes: 430568902
+  3 bytes: 432092347
+  4 bytes: 26285686
+  5 bytes: 7127391
+  6 bytes: 17902103
+  7 bytes: 4754419
+  8 bytes: 44121
+  10 bytes: 13
+
+[D.2] Operand Count Distribution:
+  0 operands: 179984
+  1 operands: 7779
+  2 operands: 301691084
+  3 operands: 502080398
+  4 operands: 179634469
+  5 operands: 16330282
+  6 operands: 76004
+
+[D.3] Instrs with 2 Reg Read Operands : 585889142
+[D.4] Instrs with 1 Reg Write Operand : 833865841
+[D.5] Instrs with 3 Memory Operands   : 0
+[D.6] Instrs with 1 Memory Read Op    : 435800851
+[D.7] Instrs with 2 Memory Write Ops  : 0
+[D.8] Max Mem Bytes Touched per Instr : 8
+[D.8] Avg Mem Bytes Touched per Instr : 3.99
+[D.9] Max Immediate Value             : 2147483647
+[D.9] Min Immediate Value             : -2147483648
+[D.10] Max Displacement Value         : 135160196
+[D.10] Min Displacement Value         : -121088
+===============================================

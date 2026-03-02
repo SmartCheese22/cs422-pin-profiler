@@ -1,0 +1,97 @@
+===============================================
+PART A & B: INSTRUCTION PROFILE & CPI
+===============================================
+Total Profiled (Denominator): 1683876122
+Calculated CPI: 29.0233
+-----------------------------------------------
+1. Loads                 : 452706173    (26.88%)
+2. Stores                : 231174034    (13.73%)
+3. NOPs                  : 36514        (0.00%)
+4. Direct calls          : 791607       (0.05%)
+5. Indirect calls        : 13           (0.00%)
+6. Returns               : 791616       (0.05%)
+7. Uncond branches       : 21299201     (1.26%)
+8. Cond branches         : 129923160    (7.72%)
+9. Logical ops           : 71000679     (4.22%)
+10. Rotate/Shift         : 61831914     (3.67%)
+11. Flag ops             : 6130         (0.00%)
+12. Vector (AVX)         : 0            (0.00%)
+13. Cond moves           : 0            (0.00%)
+14. MMX/SSE              : 0            (0.00%)
+15. System calls         : 0            (0.00%)
+16. Floating-point       : 0            (0.00%)
+17. The rest             : 714315081    (42.42%)
+
+===============================================
+PART C: MEMORY FOOTPRINT (32-BYTE CHUNKS)
+===============================================
+Instruction Footprint (32-byte Blocks) : 753
+Instruction Footprint (Bytes)          : 24096
+Instr Accesses (Single Chunk)          : 902089994
+Instr Accesses (Multi Chunk)           : 97910006
+-----------------------------------------------
+Data Footprint (32-byte Blocks)        : 2441019
+Data Footprint (Bytes)                 : 78112608
+Data Accesses (Single Chunk)           : 683880205
+Data Accesses (Multi Chunk)            : 2
+
+===============================================
+PART D: ia32 ISA PROPERTIES
+===============================================
+[D.1] Instruction Length Distribution:
+  1 bytes: 38611253
+  2 bytes: 219201447
+  3 bytes: 436965454
+  4 bytes: 75327033
+  5 bytes: 22047560
+  6 bytes: 141357420
+  7 bytes: 51341591
+  8 bytes: 15085632
+  9 bytes: 0
+  10 bytes: 62610
+  11 bytes: 0
+  12 bytes: 0
+  13 bytes: 0
+  14 bytes: 0
+  15 bytes: 0
+  16 bytes: 0
+  17 bytes: 0
+  18 bytes: 0
+  19 bytes: 0
+
+[D.2] Operand Count Distribution:
+  0 operands: 36514
+  1 operands: 6147
+  2 operands: 597647421
+  3 operands: 382870428
+  4 operands: 2693876
+  5 operands: 14191406
+  6 operands: 2554208
+  7 operands: 0
+  8 operands: 0
+  9 operands: 0
+  10 operands: 0
+  11 operands: 0
+  12 operands: 0
+  13 operands: 0
+  14 operands: 0
+  15 operands: 0
+  16 operands: 0
+  17 operands: 0
+  18 operands: 0
+  19 operands: 0
+
+[D.3] Instrs with 2 Reg Read Operands : 533608091
+[D.4] Instrs with 1 Reg Write Operand : 712782521
+[D.5] Instrs with 3 Memory Operands   : 0
+[D.6] Instrs with 1 Memory Read Op    : 452706173
+[D.7] Instrs with 2 Memory Write Ops  : 0
+[D.8] Max Mem Bytes Touched per Instr : 8
+[D.8] Avg Mem Bytes Touched per Instr : 3.49
+[D.9] Max Immediate Value             : 1431655766
+[D.9] Min Immediate Value             : -858993459
+[D.10] Max Displacement Value         : 135000192
+[D.10] Min Displacement Value         : -4848
+===============================================
+Time Taken (minutes) : 112.143433
+===============================================
